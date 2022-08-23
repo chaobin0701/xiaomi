@@ -1,0 +1,128 @@
+.site-footer{
+    display: block;
+}
+.site-footer .container{
+    width: 1226px;
+    margin: 0px auto;
+}
+.site-footer .footer-service{
+    padding: 27px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.footer-service ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.footer-service .first{
+    border-left:none;
+}
+.footer-service li{
+    float: left;
+    width: 19.8%;
+    height: 25px;
+    border-left: 1px solid #e0e0e0;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+.footer-service a{
+    line-height: 25px;
+    color: #616161;
+    -webkit-transition: color .2s;
+    transition: color .2s;
+}
+.footer-service a .iconfont{
+    /* 垂直居中的关键  vertical-align: middle;*/
+    /* 作用：使改元素垂直居中于父元素 */
+    vertical-align: middle;
+    font-size: 30px;
+}
+.footer-service a:hover{
+    color: #ff6700;
+}
+/*  */
+.footer-links{
+    padding: 40px 0;
+}
+.footer-links .col-links{
+    float: left;
+    width: 160px;
+    margin: 0;
+}
+.footer-links .col-links-first{
+
+}
+.footer-links dt{
+    margin: -1px 0 26px;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #424242;
+}
+.footer-links dd{
+    margin: 10px 0 0;
+    font-size: 12px;
+}
+.footer-links dd a{
+    color: #757575;
+}
+
+/*  */
+.col-contact{
+    float: right;
+    width: 251px;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+    color: #616161;
+}
+.col-contact .phone{
+    font-size: 22px;
+    line-height: 1;
+    color: #ff6700;
+}
+.col-contact p{
+    margin: 0 0 5px 0;
+    font-size: 12px;
+}
+
+.col-contact .btn{
+    display: block;
+    margin: 0 auto;
+    width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    border: 1px solid #ff6700;
+    background: #fff;
+    color: #ff6700;
+}
+
+.col-contact .follow{
+    font-size: 12px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.col-contact .follow a{
+    color: #616161;;
+    font-size: 20px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 6px;
+    margin-top: -3px;
+}
+
+/* 最底部区域 */
+.tail{
+    width: 100%;
+    margin-top: 30px;
+    height: 20px;
+}
+.tail .container{
+    height: 20px;
+    background: url(../imge/tail/chongci2021.png) center top;
+    background-repeat: no-repeat;
+    
+}

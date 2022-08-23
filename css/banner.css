@@ -1,0 +1,169 @@
+.span4 , .span16{
+    float: left;
+    margin-left: 14px;
+    min-height: 1px;
+}
+.span16{
+
+}
+.home-hero-container{
+    position: relative;
+    width: 1226px;
+    margin: 0 auto;
+    height: 670px;
+}
+.home-hero-container .home-hero {
+    width: 100%;
+    height: 644px;
+    position: absolute;
+    margin-bottom: 26px;
+}
+.swiper-container{
+    position: relative;
+    height: 460px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.swiper-wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.swiper-slide{
+    position: absolute;
+    width: 1226px;
+    height: 460px;
+    opacity: 0;
+    top: 0px;
+}
+.swiper-pagination{
+    position: absolute;
+    width: 400px;
+    height: 21px;
+    text-align: right;
+    right: 30px;
+    bottom: 20px;
+    z-index: 10;
+}
+.swiper-pagination .swiper-pagination-bullet{
+    display: inline-block;
+    margin: 0 4px;
+    width: 6px;
+    height: 6px;
+    border: 2px solid #fff;
+    border-color: hsla(0,0%,100%,.3);
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(0,0,0,.4);
+    cursor: pointer;
+}
+.swiper-pagination .active{
+    background: hsla(0,0%,100%,.4);
+    border-color: rgba(0,0,0,.4);
+}
+.arrow-container{
+    position: absolute;
+    z-index: 12;
+    top:50%;
+    height: 69px;
+    width: 100%;
+    transform: translateY(-50%);
+}
+.arrow-container div{
+    width: 41px;
+    height: 69px;
+    position: absolute;
+    cursor: pointer;
+}
+.arrow-container .swiper-button-prev{
+    left: 234px;
+    background: url(../imge/icon-slides.png);
+    background-position-y:50% ;
+    background-position-x:249px ;
+    /* background-position-x:167px ; */
+} 
+.arrow-container .swiper-button-next{
+    right: 0px;
+    background: url(../imge/icon-slides.png);
+    background-position-y:50% ;
+    background-position-x:208px ;
+    /* background-position-x:125x ; */
+}
+.home-hero-sub {
+    margin: 14px 0  0  -14px;
+}
+.home-hero-sub .span4{
+    width: 234px;
+    float: left;
+    margin-left: 14px;
+    min-height: 1px;
+}
+.home-hero-sub .span4 ul{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 3px;
+    list-style-type: none;
+    font-size: 12px;
+    text-align: center;
+    background: #5f5750;
+    width: 234px;
+    height: 170px;
+}
+.home-hero-sub .span4 li {
+    position: relative;
+    float: left;
+    width: 70px;
+    height: 82px;
+    padding: 0 3px;
+}
+.home-hero-sub .span4 a {
+    display: block;
+    padding-top: 18px;
+    text-overflow: ellipsis;
+    opacity: .7;
+    transition: opacity .2s;
+    color: #fff;
+}
+.home-hero-sub .span4 a:hover{
+    opacity: 1;
+}
+.home-hero-sub .span4 img{
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 auto 4px;
+}
+.home-hero-sub .span16{
+    float: left;
+    margin-left: 14px;
+    min-height: 1px;
+    width: 978px;
+}
+.home-hero-sub .span16 ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.home-hero-sub .span16 li{
+    float: left;
+    width: 316px;
+    height: 170px;
+    margin-left: 15px;
+}
+.home-hero-sub .span16 .first{
+    margin-left: 0px;
+}
+.home-hero-sub .span16 a{
+    display: block;
+    height: 170px;
+    transition:box-shadow .4s ;
+}
+.home-hero-sub .span16 img{
+    display: block;
+    width: 316px;
+    height: 170px;
+}
+.home-hero-sub .span16 li a:hover{
+    box-shadow: 4px 15px 18px rgb(0 0 0 / 12%)
+}

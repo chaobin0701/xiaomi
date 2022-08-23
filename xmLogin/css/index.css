@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: noen;
+    color: #000;
+}
+.icon-icon-xiaomiguishu{
+    color: #ff6700;
+}
+.icon-zhifubao{
+    color: #1989FA;
+}
+.icon-weixin{
+    color: #50B674;
+}
+.icon-qq{
+    color: #18acfc;
+
+}
+.icon-weibo{
+    color: #EA5D5C;
+}
+
+body{
+    height: 937px;
+}
+
+
+.wrapper{
+    display: flex;
+    height: 100%;
+}
+/* 左边图片部分 */
+.left-img{
+    width: 375px;
+    height: 100%;
+}
+.left-img img{
+    width: 100%;
+    height: 100%;
+}
+/* 右边部分 */
+
+.right-content{
+    box-sizing: border-box;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin-left: 375px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* 顶部 */
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top .logo{
+    display: flex;
+    align-items: center;
+}
+.top .logo .iconfont{
+    font-size: 35px;
+}
+.top .logo h2{
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.nav ul{
+    display: flex;
+    color: #dbdbdb;
+}
+.nav ul li{
+    color: #838383;
+    margin: 0 10px;
+    transition: all .3s ease;
+}
+.nav ul li:hover{
+    color:#ff6700;
+}
+
+
+/* 中间的注册 */
+.login{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-content{
+    height: 560px;
+    text-align: left;
+    display: inline-block;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 4px;
+    padding: 40px 45px;
+    position: relative;
+    margin: 0 auto 80px;
+    min-width: 450px;
+    box-shadow: 0 20px 50px 0 hsl(0deg 0% 64% / 10%);
+}
+.login-content-header{
+    display: flex;
+}
+.login-content-header p.active{
+    color: #333;
+    border-bottom: #ff6700 3px solid;
+}
+.login-content-header p{
+    margin: 3px 12px 3px 0 ;
+    color: #bbb;
+    font-size: 24px;
+}
+.mi-form{
+    height: 100%;
+}
+.mi-form-content{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.mi-form-content input{
+    width: 354px;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: none;
+    font-size: 17px;
+    background: rgba(0,0,0,.03);
+    margin: 20px 0px;
+}
+.mi-form-content button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #ff5c00;
+    border: none;
+    padding: 0 20px;
+    font-size: 18px;
+    line-height: 60px;
+    height: 60px;
+    border-radius: 4px;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+}
+.mi-accept-terms span{
+    color: #aaa;
+    font-size: 14px;
+}
+.mi-accept-terms span a{
+    text-decoration: none;
+    padding: 0px 5px;
+}
+.mi-form-actions{
+    display: flex;
+    justify-content: space-between;
+}
+.mi-form-actions span{
+    color: #ff5c00;
+    font-size: 18px;
+}
+.mi-from-login{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: space-around;
+}
+.mi-from-login .mi-login-icon{
+    margin-top: 15px
+}
+.mi-from-login .mi-login-title{
+    color: #aaa;
+    font-size: 18px;
+}
+.mi-from-login  .mi-login-icon .iconfont{
+    font-size: 40px;
+    margin: 0px 5px;
+}

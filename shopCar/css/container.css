@@ -1,0 +1,304 @@
+.page-main{
+    width: 100%;
+    padding-top: 4px;
+    padding-bottom: 12px;
+    background: #f5f5f5;
+}
+.page-main .container{
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #f5f5f5;
+}
+.page-main  .home-banner-box{
+    height: 120px;
+    margin: 22px 0;
+    overflow: hidden;
+}
+.home-banner-box img {
+    width: 1226px;
+    height: 120px;
+}
+.home-brick-box{
+    margin-bottom: 8px;
+}
+.home-brick-box .box-hd{
+    position: relative;
+    height: 58px;
+    -webkit-font-smoothing: antialiased;
+}
+.home-brick-box .box-hd .title{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+.home-brick-box .box-hd .more{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.home-brick-box .box-hd .more a{
+    font-size: 16px;
+    line-height: 58px;
+    color: #424242;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+.home-brick-box .box-hd .more a:hover{
+    color: #ff6700;
+}
+.home-brick-box .box-bd .row{
+    margin-left: -14px;
+}
+.home-brick-box .box-bd .row .span4{
+   width: 234px;
+}
+.home-brick-box .box-bd .row .span16{
+    width: 978px;
+ }
+ .box-bd .row .span4 ul{
+    height: 614px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin: 0  0 -14px -14px;
+}
+.box-bd .row .span4 ul li {
+    position: relative;
+    top: 0.0px;
+    height: 614px;
+    z-index: 1;
+    float: left;
+    width: 234px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background: #fff;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;  
+}
+
+.box-bd .row .span4 ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;  
+}
+.box-bd .row .span16{
+    width: 978px;
+}
+.box-bd .row .span16 ul{
+    margin: 0 0 -14px -14px;
+    width: 992px;
+    height: 614px;
+}
+.box-bd .row .span16 ul li {
+    position: relative;
+    top:0.0px;
+    z-index: 1;
+    float: left;
+    width: 234px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    background: #fff;
+    height: 300px;
+    padding: 0px;
+    transition: all .2s ease;
+}
+.box-bd .row .span16 ul li:hover{
+    box-shadow: 4px 4px 10px rgb(0, 0, 0,0.10);
+    top: -3.0px;
+}
+.box-bd .row .span4 ul li:hover{
+    box-shadow: 4px 4px 10px rgb(0, 0, 0,0.10);
+    top: -3.0px;
+}
+.box-bd .row .span16 ul li a {
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+.box-bd .row .span16  .figure-img{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 18px;
+}
+.box-bd .row .span16  .figure-img img{
+    width: 160px;
+    height: 160px;
+}
+.box-bd .row .span16  .title{
+    margin: 0 10px 2px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+}
+.box-bd .row .span16 .desc{
+    margin: 0 10px 10px;
+    height: 18px;
+    font-size: 12px;
+    color: #b0b0b0;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.box-bd .row .span16 .price{
+    margin: 0 10px 14px;
+    text-align: center;
+    color: #ff6700;
+    font-size: 14px;
+}
+.box-bd .row .span16 .price .del{
+    margin-left: .5em;
+    color: #b0b0b0;
+    text-decoration:line-through;
+}
+
+.box-bd .row .span4 ul .brick-item{
+    height: 300px;
+}
+.box-bd .row .span16 ul .brick-item-s{
+    float: left;
+    height: 93px;
+    padding-top: 50px;
+    width: 234px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+}
+.box-bd .row .span16 ul .brick-item-s img{
+    width: 80px;
+    height: 80px;
+}
+.box-bd .row .span16 ul .brick-item-s .figure{
+    position: absolute;
+    right: 20px;
+    top: 32px;
+    width: 80px;
+    height: 80px;
+}
+.box-bd .row .span16 ul .brick-item-s .title{
+    margin: -10px 110px 5px 30px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+   white-space:normal;
+
+}
+.box-bd .row .span16 ul .brick-item-s .price{
+    margin: 0 110px 0 30px;
+    font-size: 12px;
+    color: #ff6700;
+    text-align: left;
+}
+.box-bd .row .span16 ul .brick-item-s .figure-more{
+    position: absolute;
+    right: 35px;
+    top: 48px;
+    width: 48px;
+    height: 48px;
+    color: #ff6700;
+}
+.box-bd .row .span16  .brick-item-s .figure-more i{
+    background: url(../imge/xiaomi-container-1/container-jiantou.png);
+    display: block;
+    width: 48px;
+    height: 48px;
+}
+
+.box-bd .row .span16  .brick-item-s .more{
+    display: block;
+    margin: -20px 110px 0 30px;
+    font-size: 18px;
+    color: #333;
+}
+.box-bd .row .span16  .brick-item-s .more p{
+    color: #757575;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.home-brick-box .box-hd .more .hot{
+    text-align: center;
+    color: #ff6700;
+    border-bottom: 2px solid #ff6700;
+    margin:  0 30px 0  0;
+    padding-left: 4px;
+}
+
+.box-bd .video-list{
+    width: 1240px;
+    height: 285px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.box-bd .video-list .video-item{
+    position: relative;
+    float: left;
+    width: 296px;
+    height: 285px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+    text-align: center;
+    background: #fff;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    top: 0px;
+}
+.box-bd .video-list .first{
+    margin-left: 0px;
+}
+.box-bd .video-list .video-item .title{
+    margin: 0 14px 6px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #333;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.box-bd .video-list .video-item .figure{
+    position: relative;
+    width: 296px;
+    height: 180px;
+    margin: 0 0 28px;
+}
+.box-bd .video-list .video-item .figure .play{
+    position: absolute;
+    width: 36px;
+    height: 24px;
+    border-radius: 12px;
+    border: 2px solid #fff;
+    background: rgb(0, 0, 0,0.50);
+    transition: all .2s ease;
+    left: 20px;
+    bottom: 15px;
+}
+.box-bd .video-list .video-item .figure:hover .play{
+    background: rgb(255, 103, 0,1);
+    border: 2px solid #ff6700;
+}
+.box-bd .video-list .video-item .figure .play .icon-bofang{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 24px;
+}
+.box-bd .video-list .video-item .desc{
+    height: 18px;
+    margin: 0 14px;
+    font-size: 12px;
+    color: #b0b0b0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.box-bd .video-list .video-item:hover{
+    box-shadow: 4px 4px 10px rgb(0, 0, 0,0.10);
+    top: -3px;
+}
